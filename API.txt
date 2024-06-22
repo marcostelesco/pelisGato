@@ -1,0 +1,28 @@
+Endpoint=>
+
+-api/peliculas = Trae la coleccion entera de peliculas
+-api/peliculas/(id de pelicula) = trae una pelicula especifica
+-api/peliculas/categoria/(categoria) = trae las peliculas segun su categoria
+-api/peliculas/(id de la primera pelicula)/(numero de peliculas que le siguen) = paginacion, el primero numero es el id de que especifica
+										 a partir de que pelicula y el segundo cuantas peliculas le siguen. arrancando en 0
+-
+
+-POST->
+
+{
+    "name" : "",
+    "description" : "",
+    "date" : "2030",
+    "img" : "image/db/1.jpg",
+    "categorie" : "Accion"
+}
+
+
+-PUT->
+{
+    "name" : "",
+    "description" : "",
+    "date" : "2030",
+    "categorie" : "Accion",
+    "id_categorie" : /*(Accion = 1, Drama = 2, Aventura = 3)*/
+}
